@@ -21,4 +21,4 @@ Install
  6.) create Home Screen and install  > yarn add tailwind-react-native-classnames
  > import tailwind obj. > import tw from 'tailwind-react-native-classnames'; 
 
- 7.) create Navigation >
+ 7.) create Navigation > creat data object for Mapscreen and Eatscreen and use Flatlist component to render

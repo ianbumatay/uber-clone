@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { StyleSheet, View, Text } from 'react-native';  
+import { StyleSheet, View, Text, FlatList } from 'react-native';  
 
 const data = [
     {id: '123', title: 'Get a ride', image:"https://links.papareact.com/3pn", screen: 'MapScreen',},
@@ -9,7 +9,12 @@ const data = [
 const NavOptions = () => {
     return(
         <View>
-            <Text>Navigation</Text>
+            <FlatList
+            data={data}
+            horizontal
+            renderItem={()=>{}}
+
+            />
         </View>
     );
 
