@@ -9,7 +9,8 @@ const data = [
 const NavOptions = () => {
     return(
         <View>
-            <FlatList
+            <FlatList 
+            keyExtractor={(item)=>{item.id}} // unique identifier for rendering component
             data={data}
             horizontal
             renderItem={()=>{}}
