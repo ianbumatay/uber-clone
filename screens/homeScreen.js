@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, View, Text, SafeAreaView, Image} from 'react-native';
 import tw from 'tailwind-react-native-classnames';
+import NavOptions from '../components/navOptions';
 
 const HomeScreen = () => {
     return(
@@ -11,7 +12,8 @@ const HomeScreen = () => {
                 source={{
                     uri: "https://links.papareact.com/gzs"
                 }}
-              />
+              /> 
+              <NavOptions/>
           </View>
         </SafeAreaView>
     );

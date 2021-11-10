@@ -4,7 +4,7 @@ import { StyleSheet, View, Text } from 'react-native';
 const NavOptions = () => {
     return(
         <View>
-            <Text></Text>
+            <Text>Navigation</Text>
         </View>
     );
 
