@@ -8,7 +8,7 @@ export default function App() {
   return (
     <Provider store={store}>
       <View style={styles.container}>
-        <Text>let's build uber</Text>
+        <Text>let's build UBER</Text>
         {/* <StatusBar style="auto" /> */}
       </View>
     </Provider>
