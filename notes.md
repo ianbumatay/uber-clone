@@ -33,3 +33,8 @@ Install
     function App() {
        return <SafeAreaProvider>...</SafeAreaProvider>;
     }
+
+9.) Creating navigation 
+> create MapScreen Componet 
+> install yarn add @react-navigation/native from react native navigation 
+> install expo install react-native-screens react-native-safe-area-context
