@@ -21,4 +21,15 @@ Install
  6.) create Home Screen and install  > yarn add tailwind-react-native-classnames
  > import tailwind obj. > import tw from 'tailwind-react-native-classnames'; 
 
- 7.) create Navigation > creat data object for Mapscreen and Eatscreen and use Flatlist component to render
+ 7.) create Navigation > creat data object for Mapscreen and Eatscreen and use Flatlist component to render 
+ 
+ 8.) add logo using react-native elements 
+ > yarn add react-native-elements
+ > yarn add react-native-vector-icons 
+ > yarn add react-native-safe-area-context 
+
+ > import { SafeAreaProvider } from 'react-native-safe-area-context'; 
+
+    function App() {
+       return <SafeAreaProvider>...</SafeAreaProvider>;
+    }
