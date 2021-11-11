@@ -29,7 +29,7 @@ export default function App() {
              <Stack.Screen
               name="MapScreen"
               component={MapScreen} 
-              options={{headerShown: false}}
+              // options={{headerShown: false}}
             />
           </Stack.Navigator>
         </SafeAreaProvider>
