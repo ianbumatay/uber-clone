@@ -37,4 +37,9 @@ Install
 9.) Creating navigation 
 > create MapScreen Componet 
 > install yarn add @react-navigation/native from react native navigation 
-> install expo install react-native-screens react-native-safe-area-context
+> install expo install react-native-screens react-native-safe-area-context 
+>import Navigation container 
+
+>install yarn add @react-navigation/native-stack 
+> import import { createNativeStackNavigator } from '@react-navigation/native-stack';
+

@@ -11,4 +11,6 @@ const MapSreen = () => {
     );
 }; 
 
-export default MapSreen
+export default MapSreen 
+
+const styles = StyleSheet.create({})
