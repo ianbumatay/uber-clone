@@ -13,14 +13,17 @@ const NavOptions = () => {
                 keyExtractor={(item) => item.id} // unique identifier for rendering component
                 data={data}
                 horizontal
-                renderItem={({item})=> ( 
+                renderItem={({ item }) => (
                     <TouchableOpacity>
-                        <Text>{item.title}</Text>
-
+                        <View>
+                            <Image
+                                style={{ width: 120, height: 120, resizeMode: 'contain' }}
+                                source={{ uri: item.image }}
+                            /> 
+                            <Text>{item.title}</Text>
+                        </View>
                     </TouchableOpacity>
-
                 )}
-              
             />
         </View>
     );
@@ -31,5 +34,4 @@ export default NavOptions
 
 const styles = StyleSheet.create({})
 
-                                // style={{ width: 120, height: 120, resizeMode: 'containe' }}
-                                // source={{ uri: item.image }}
+            
