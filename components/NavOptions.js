@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
+import tw from 'tailwind-react-native-classnames';
 
 const data = [
     { id: '123', title: 'Get a ride', image: "https://links.papareact.com/3pn", screen: 'MapScreen', },
@@ -14,7 +15,7 @@ const NavOptions = () => {
                 data={data}
                 horizontal
                 renderItem={({ item }) => (
-                    <TouchableOpacity>
+                    <TouchableOpacity style={tw`p-2 pl-6 pt-4 pb-8 bg-gray-200 m-2 w-40`}>
                         <View>
                             <Image
                                 style={{ width: 120, height: 120, resizeMode: 'contain' }}
