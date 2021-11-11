@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
-import tw from 'tailwind-react-native-classnames';
+import tw from 'tailwind-react-native-classnames'; 
+import {Icon} from 'react-native-elements'
 
 const data = [
     { id: '123', title: 'Get a ride', image: "https://links.papareact.com/3pn", screen: 'MapScreen', },
@@ -21,7 +22,8 @@ const NavOptions = () => {
                                 style={{ width: 120, height: 120, resizeMode: 'contain' }}
                                 source={{ uri: item.image }}
                             /> 
-                            <Text style={tw`text-lg mt-2 font-semibold`}>{item.title}</Text>
+                            <Text style={tw`text-lg mt-2 font-semibold`}>{item.title}</Text> 
+                            <Icon style={tw`p-2 bg-black rounded-full w-10 mt-4`} name="arrowright" color="white" type="antdesign"/>
                         </View>
                     </TouchableOpacity>
                 )}
