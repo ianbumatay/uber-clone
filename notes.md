@@ -51,4 +51,6 @@ Install
    > places api 
    > distance matrix api 
 
- > get key > credentials
+ > get key > credentials paste  key in .env file  
+
+ 11.) install dotenv > yarn add dotenv
