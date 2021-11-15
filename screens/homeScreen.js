@@ -20,7 +20,14 @@ const HomeScreen = () => {
           styles={{
             container: {
               flex: 0,
-            },
+            }, 
+            textInput: {
+              fontSize: 18,
+            }
+          }} 
+          query={{
+            key: GOOGLE_MAPS_APIKEY,
+            language: 'en',
           }}
           placeholder="where from?"
           nearbyPlacesAPI="GooglePlacesSearch"
