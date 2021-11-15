@@ -17,6 +17,11 @@ const HomeScreen = () => {
           }}
         />
         <GooglePlacesAutocomplete
+          styles={{
+            container: {
+              flex: 0,
+            },
+          }}
           placeholder="where from?"
           nearbyPlacesAPI="GooglePlacesSearch"
           debounce={400}
