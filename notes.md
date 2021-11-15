@@ -53,4 +53,4 @@ Install
 
  > get key > credentials paste  key in .env file  
 
- 11.) install dotenv > yarn add dotenv
+ 11.) install dotenv > yarn add react-native-dotenv
