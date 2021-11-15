@@ -43,3 +43,12 @@ Install
 >install yarn add @react-navigation/native-stack 
 > import import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+10.) install 
+ > google places api 
+ > googl places auto complete install yarn add  react-native-google-places-autocomplete
+ > api and services > enable google api 
+   > directions api 
+   > places api 
+   > distance matrix api 
+
+ > get key > credentials
