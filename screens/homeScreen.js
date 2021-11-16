@@ -25,11 +25,19 @@ const HomeScreen = () => {
               fontSize: 18,
             }
           }} 
+          onPress={(data, details = null)=> {
+            console.log(data);
+            console.log(details);
+          }}
+          returnKeyType={"search"}
+          fetchDetails={true}
+          enablePoweredByContainer={false}
+          minLength={2}
           query={{
             key: GOOGLE_MAPS_APIKEY,
             language: 'en',
           }}
-          placeholder="where from?"
+          placeholder="Where from?"
           nearbyPlacesAPI="GooglePlacesSearch"
           debounce={400}
         />
