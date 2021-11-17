@@ -53,4 +53,9 @@ Install
 
  > get key > credentials paste  key in .env file  
 
- 11.) install dotenv > yarn add react-native-dotenv
+ 11.) install dotenv > yarn add react-native-dotenv 
+
+ 12.) Map component 
+ > create map component 
+ > render component to the screen 
+ > install yarn add react-native-maps 
