@@ -6,7 +6,6 @@ import tw from 'tailwind-react-native-classnames';
 
 const Map = () => {
     return (
-        <View>
             <MapView
                 style={tw`flex-1`}
                 initialRegion={{
@@ -16,7 +15,6 @@ const Map = () => {
                     longitudeDelta: 0.0421,
                 }}
             />
-        </View>
     )
 }
 
