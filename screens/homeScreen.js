@@ -24,13 +24,9 @@ const HomeScreen = () => {
           }}
         />
         <GooglePlacesAutocomplete
-          styles={{
-            container: {
-              flex: 0,
-            },
-            textInput: {
-              fontSize: 18,
-            }
+          styles={{ 
+            container: {flex: 0, },
+            textInput: {fontSize: 18, }
           }}
           onPress={(data, details = null) => {
             // console.log(data)
